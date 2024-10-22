@@ -1,0 +1,94 @@
+table, th, td {
+    border: 1px solid #0e2617;
+    border-radius: 10px;
+    border-collapse: collapse;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+   
+    
+  }
+  h1 {
+    margin-left: 15%;
+    color: white;
+    
+}
+input ,button{
+    background-color: rgb(26, 36, 4);
+    color: white;
+    border: #fefbf0;
+}
+button{
+    adding: 10px 15px;
+    border-radius: 25px;
+    border: solid;
+    background-color: #0e2617;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+input[type="text"] {
+    width: 75%;
+    padding: 10px;
+    border-radius: 15px;
+    border: solid ;
+    background-color: #0e2617;
+    color: white;
+    font-size: 1rem;
+}
+.container{
+    margin: 15%;
+    padding: 20px 20px 50px 20px;
+    background-color: rgb(24, 36, 4);
+    border-radius: 10px;
+
+
+
+}
+body{
+    background-color: antiquewhite;
+
+}
+input, button{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #182c22;
+    border: 1px solid #f1c794;
+    border-radius: 5px;
+}
+
+.task-item span {
+    color: #fefbf0;
+    font-size: 1.1rem;
+}
+
+.edit, .complete, .delete {
+    margin-left: 10px;
+    color: #00b48a;
+    cursor: pointer;
+}
+
+.complete {
+    color: #f0b573;
+}
+
+.delete {
+    color: #db3a34;
+}
